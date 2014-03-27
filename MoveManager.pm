@@ -34,24 +34,23 @@ sub plan_move {
     my ( $self, $source ) = @_;
 
     if ($self->_source_is_registered($source)) {
-        __log("$source: already registered");
+        __warn("$source: already registered");
         return;
     }
 
     my $target = $self->get_target($source);
     if ($target eq $source) {
-        __log("$source\n\tis already in place");
-        return;
+        __trace("$source\n\tis already in place");
+        return $source;
     }
     if (exists $self->{contested_targets}->{$target}) {
         my $target_with_digest = __insert_digest($target, $self->get_digest($source));
-        $self->_register_move_or_ignore($source, $target_with_digest);
-        return;
+        return $self->_register_move_or_ignore($source, $target_with_digest);
     }
 
     my $conflicted_source = $self->_get_conflicted_source($target);
     if (not $conflicted_source) {
-        $self->_register_move($source, $target);
+        return $self->_register_move($source, $target);
     } else {
         $self->_register_contested_target($target);
 
@@ -64,10 +63,10 @@ sub plan_move {
         my ($conflicted_target_with_digest) = __insert_digest($target, $self->get_digest($conflicted_source));
         my ($target_with_digest, $digest) = __insert_digest($target, $self->get_digest($source));
         if ($conflicted_target_with_digest ne $target_with_digest) {
-            __log("Resolved conflict: files are actually differ\n\t"
+            __trace("Resolved conflict: files are actually differ\n\t"
               . "$conflicted_target_with_digest\n\tand\n\t$target_with_digest\n\trespectively");
-            $self->_register_move_or_ignore($source, $target_with_digest);
             $self->_register_move_or_ignore($conflicted_source, $conflicted_target_with_digest);
+            return $self->_register_move_or_ignore($source, $target_with_digest);
         } else {
             my $message = sprintf(
                 '%s and %s are identical with MD5 digest $digest',
@@ -75,11 +74,9 @@ sub plan_move {
                 $source,
                 $digest
             );
-            my $source_to_delete = length $source > length $conflicted_source
-                ? $conflicted_source
-                : $source;
-            __log("Resolved conflict: \n\t$source_to_delete \n\tmarked to be deleted");
-            $self->_register_delete($source_to_delete, $message);
+
+            $self->_register_move_or_ignore($conflicted_source, $conflicted_target_with_digest);
+            return $self->_register_delete($source, $target_with_digest);
         }
     }
 }
@@ -132,17 +129,17 @@ sub _register_contested_target {
 
 sub _register_move_or_ignore {
     my ( $self, $source, $target ) = @_;
-    if ($self->_target_is_registered($target)) {
-        __log("Ignoring move registration from $source to $target. Move already planned form "
-            . $self->{target_to_source}->{$target} . " to $source");
-        $self->_register_delete(
+    my $conflicted_source = $self->{target_to_source}->{$target};
+    if ($conflicted_source) {
+        __warn("Ignoring move registration from $source to $target. Move already planned form " . $conflicted_source . " to $source");
+        return $self->_register_delete(
             $source,
-            $self->{target_to_source}->{$target}
+            $conflicted_source
                 . " is identical to $source and will be "
                 . "moved to $target. $source removal planned"
         );
     } else {
-        $self->_register_move($source, $target);
+        return $self->_register_move($source, $target);
     }
 }
 
@@ -160,14 +157,16 @@ sub _register_move {
     $source_to_target->{$source} = $target;
     $target_to_source->{$target} = $source;
     $self->{dirs_to_create}->{dirname($target)} = 1;
+    return $target;
 }
 
 sub _register_delete {
     my ( $self, $source_to_delete, $message ) = @_;
 
-    if (exists $self->{sources_to_delete}->{$source_to_delete}) {
-        __log("$source_to_delete is already scheduled to be deleted");
-        return;
+    my $delete_descriptor = $self->{sources_to_delete}->{$source_to_delete};
+    if ($delete_descriptor) {
+        __log("$source_to_delete is already scheduled to be deleted: " . $delete_descriptor->{message});
+        return $delete_descriptor->{trash_file_path};
     }
 
     my $trash_directory = $self->{trash_directory};
@@ -180,6 +179,7 @@ sub _register_delete {
         trash_file_path => $trash_file_path
     };
     $self->{dirs_to_create}->{$trash_directory_path} = 1;
+    return $trash_file_path;
 }
 
 sub _source_is_registered {
@@ -208,11 +208,6 @@ sub _get_conflicted_source {
     return undef;
 }
 
-sub _target_is_registered {
-    my ( $self, $target ) = @_;
-    return exists $self->{target_to_source}->{$target};
-}
-
 sub __insert_digest {
     my ( $file_path, $digest ) = @_;
 
@@ -233,9 +228,16 @@ sub __get_common_path {
     }
 }
 
+sub __trace {
+    #say @_;
+}
+
 sub __log {
     #say @_;
 }
 
+sub __warn {
+    say @_;
+}
 
 1;

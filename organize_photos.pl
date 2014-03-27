@@ -6,12 +6,20 @@ use warnings;
 use autodie;
 
 use PhotoMoveManager;
+use Utils;
+
 use File::Find;
 use Data::Dumper;
 use File::Copy;
+use Term::ANSIColor;
+use List::Util qw(max);
 
-my $move_manager = PhotoMoveManager->new('/Volumes/Media/Photos', '/Volumes/Media/Photos.back');
+my $target_directory = '/Volumes/Media/Photos';
+my $trash_directory = '/Volumes/Media/Photos.back';
+
+my $move_manager = PhotoMoveManager->new($target_directory, $trash_directory);
 my $files_to_handle = {};
+say "Searching for movable files in $target_directory...";
 finddepth( {
     wanted => sub {
         my $file_path = $File::Find::name;
@@ -20,8 +28,41 @@ finddepth( {
         $files_to_handle->{$file_path} = 1;
     },
     no_chdir => 1
-}, $move_manager->target_directory);
+}, $target_directory);
 
-$move_manager->plan_move($_) for keys $files_to_handle;
+my @files_to_move = sort { $a cmp $b } keys $files_to_handle;
+
+say "Planning the move...";
+local $| = 1;
+my $counter;
+my $last_print_length = 0;
+for my $path (@files_to_move) {
+    my $target_path = $move_manager->plan_move($path);
+
+    if ($counter++ % 42 == 0) {
+
+        my $color = '';
+        if ($target_path) {
+            if ($target_path eq $path) {
+                $color = 'green';
+            } elsif (substr($target_path, 0, length $trash_directory) eq $trash_directory) {
+                $color = 'red';
+            } else {
+                $color = 'yellow';
+            }
+        }
+
+        print "\b" x $last_print_length;
+        my $status = "\r" .$path . ' => ' . ($target_path  || 'unknown');
+        print colored($status, $color);
+        my $status_length = length $status;
+        print ' ' x ($last_print_length - $status_length);
+        $last_print_length = max($status_length, $last_print_length);
+    }
+}
+
+print "\n";
 
 $move_manager->execute();
+
+Utils->clean_directory($_, qr/\.DS_store/i) for ($target_directory, $trash_directory);
