@@ -14,8 +14,8 @@ use File::Copy;
 use Term::ANSIColor;
 use List::Util qw(max);
 
-my $target_directory = '/Volumes/Media/Photos';
-my $trash_directory = '/Volumes/Media/Photos.back';
+my $target_directory = '/Volumes/Media/SkyDrive/Photos';
+my $trash_directory = '/Volumes/Media/SkyDrive/Photos.back';
 
 my $move_manager = PhotoMoveManager->new($target_directory, $trash_directory);
 my $files_to_handle = {};

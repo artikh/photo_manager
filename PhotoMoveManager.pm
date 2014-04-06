@@ -18,7 +18,6 @@ sub new {
     my $self = $class->SUPER::new(@_);
 
     my $exifTool = Image::ExifTool->new;
-    $exifTool->Options(DateFormat => '%Y,%m,%d,%H,%M,%S,%z');
     $self->{exifTool} = $exifTool;
     return $self;
 }
@@ -76,9 +75,20 @@ sub __get_extension {
 sub __parse_exif_date {
     my ( $date_string ) = @_;
     return unless $date_string;
-    my ($year, $month, $day, $hour, $minute, $second, $timezone) =
-        split /,/, $date_string;
-    return undef unless $year and $month and $day and $hour;
+
+    # a few cameras use incorrect date/time formatting:
+    # - slashes instead of colons in date (RolleiD330, ImpressCam)
+    # - date/time values separated by colon instead of space (Polariod, Sanyo, Sharp, Vivitar)
+    # - single-digit seconds with leading space (HP scanners)
+    # 2013:03:19 16:33:48
+
+    $date_string =~ s/([-+]\d{2}(?::\d{2})?)$//;  # remove timezone if it exists
+    my $timezone = $1;
+    # be very flexible about date/time format
+    my ($year, $month, $day, $hour, $minute, $second) = ($date_string =~ /\d+/g);
+    die "Invalid date string : $date_string"
+        unless $year and $year >= 1000 and $year < 3000 and $month and $day and $hour;
+
     return DateTime->new(
         year       => $year,
         month      => $month,
@@ -86,7 +96,7 @@ sub __parse_exif_date {
         hour       => $hour,
         minute     => $minute,
         second     => $second,
-        time_zone  => $timezone
+        time_zone  => $timezone // '+04:00'
     );
 }
 
