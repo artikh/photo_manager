@@ -86,7 +86,7 @@ sub __parse_exif_date {
     my $timezone = $1;
     # be very flexible about date/time format
     my ($year, $month, $day, $hour, $minute, $second) = ($date_string =~ /\d+/g);
-    die "Invalid date string : $date_string"
+    return undef
         unless $year and $year >= 1000 and $year < 3000 and $month and $day and $hour;
 
     return DateTime->new(
