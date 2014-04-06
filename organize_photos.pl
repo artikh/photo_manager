@@ -65,4 +65,5 @@ print "\n";
 
 $move_manager->execute();
 
-Utils->clean_directory($_, qr/\.DS_store/i) for ($target_directory, $trash_directory);
+Utils->clean_directory($_, qr/\.DS_store/i, qr/\.picasa\.ini/i)
+    for ($target_directory, $trash_directory);

@@ -1,0 +1,1850 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"execution_context"
+			],
+			[
+				"p",
+				"param	Argument deciphering statement"
+			],
+			[
+				"ser",
+				"service_ids"
+			],
+			[
+				"num",
+				"num_bathrooms"
+			],
+			[
+				"valid",
+				"valid_values"
+			],
+			[
+				"num_roo",
+				"num_rooms_total"
+			],
+			[
+				"roo",
+				"room_fields"
+			],
+			[
+				"new",
+				"new_room"
+			],
+			[
+				"get_",
+				"get_room_page_info"
+			],
+			[
+				"conf",
+				"config"
+			],
+			[
+				"dis",
+				"discount_price"
+			],
+			[
+				"all",
+				"all_rooms"
+			],
+			[
+				"is",
+				"is_update"
+			],
+			[
+				"num_",
+				"num_rooms_total"
+			],
+			[
+				"get",
+				"get_completed"
+			],
+			[
+				"DE",
+				"DEV_SERVER"
+			],
+			[
+				"man",
+				"mandate_request"
+			],
+			[
+				"curr",
+				"currency_html"
+			],
+			[
+				"cur",
+				"currency_html"
+			],
+			[
+				"tra",
+				"translation"
+			],
+			[
+				"pro",
+				"property_photos"
+			],
+			[
+				"photo",
+				"photo_id"
+			],
+			[
+				"id",
+				"id_parameters"
+			],
+			[
+				"main",
+				"main_photo_id"
+			],
+			[
+				"translation",
+				"translation_data"
+			],
+			[
+				"chec",
+				"check_if_hi_res"
+			],
+			[
+				"_get",
+				"_get_db_photo"
+			],
+			[
+				"_hand",
+				"_handle_photo_uploaded"
+			],
+			[
+				"pho",
+				"photo_rooms"
+			],
+			[
+				"lang",
+				"language_code"
+			],
+			[
+				"langu",
+				"languages_spoken_by_staff"
+			],
+			[
+				"numb",
+				"number_of_visitors"
+			],
+			[
+				"tml",
+				"tmpl_data"
+			],
+			[
+				"tes",
+				"testdata"
+			],
+			[
+				"_roun",
+				"_round_to"
+			],
+			[
+				"tm",
+				"tmpl_data"
+			],
+			[
+				"dum",
+				"dump_translations"
+			],
+			[
+				"parse",
+				"parseInt"
+			],
+			[
+				"prep",
+				"prepaymentTip"
+			],
+			[
+				"can",
+				"cancel_free_days_prior"
+			],
+			[
+				"cancel_",
+				"cancel_free_days_prior"
+			],
+			[
+				"co",
+				"config"
+			],
+			[
+				"js",
+				"js_data"
+			],
+			[
+				"translat",
+				"translate"
+			],
+			[
+				"err",
+				"error_key"
+			],
+			[
+				"ext",
+				"extension"
+			],
+			[
+				"phot",
+				"photo_id"
+			],
+			[
+				"prope",
+				"property"
+			],
+			[
+				"firs",
+				"first_photo"
+			],
+			[
+				"cont",
+				"contract_html_file_name"
+			],
+			[
+				"save",
+				"save_is_ok"
+			],
+			[
+				"fir",
+				"first_room"
+			],
+			[
+				"room",
+				"room_facilities_rules"
+			],
+			[
+				"room_",
+				"room_id"
+			],
+			[
+				"sub",
+				"submitted"
+			],
+			[
+				"F",
+				"FEET_UNIT_ID"
+			],
+			[
+				"room_id",
+				"room_id_to_size"
+			],
+			[
+				"chi",
+				"children_policy"
+			],
+			[
+				"chil",
+				"children_allowed"
+			],
+			[
+				"resul",
+				"result_room_size"
+			],
+			[
+				"res",
+				"result_facilities"
+			],
+			[
+				"unit",
+				"unit_id"
+			],
+			[
+				"fie",
+				"field_name"
+			],
+			[
+				"prop",
+				"property_level_extrabed_policy"
+			],
+			[
+				"proper",
+				"property_level_extrabed_policy"
+			],
+			[
+				"room_si",
+				"room_size_field_name"
+			],
+			[
+				"val",
+				"value_name"
+			],
+			[
+				"sq",
+				"sq_meters"
+			],
+			[
+				"Pr",
+				"PropertyRoomPhoto"
+			],
+			[
+				"property",
+				"property_photos"
+			],
+			[
+				"def",
+				"default_measurement_unit"
+			],
+			[
+				"on",
+				"once	Mason <%once>"
+			],
+			[
+				"mea",
+				"measurement_unit"
+			],
+			[
+				"_rule_",
+				"_rule_number"
+			],
+			[
+				"extra",
+				"extrabed_policy"
+			],
+			[
+				"_rule",
+				"_rule_variants"
+			],
+			[
+				"fa",
+				"facility_id"
+			],
+			[
+				"for",
+				"for	Loop"
+			],
+			[
+				"tags",
+				"tags_to_dump"
+			],
+			[
+				"group",
+				"group_name_to_dump"
+			],
+			[
+				"except",
+				"exception_type"
+			],
+			[
+				"trans",
+				"translation_key"
+			],
+			[
+				"CD",
+				"CDF_ITEM:"
+			],
+			[
+				"params",
+				"params_to_dump-"
+			],
+			[
+				"tran",
+				"translation_key"
+			],
+			[
+				"grou",
+				"group_to_dump_name"
+			],
+			[
+				"item",
+				"item_id_to_dump"
+			],
+			[
+				"unl",
+				"unless	Conditional"
+			],
+			[
+				"tag",
+				"tag_name"
+			],
+			[
+				"js_",
+				"js_translate"
+			],
+			[
+				"gro",
+				"group_name"
+			],
+			[
+				"cd",
+				"cdf_group"
+			],
+			[
+				"ph",
+				"photo_info"
+			],
+			[
+				"rota",
+				"rotate_angle"
+			],
+			[
+				"db",
+				"_db_photos"
+			],
+			[
+				"ar",
+				"argument_value"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"test",
+				"test_js_translate"
+			],
+			[
+				"cl",
+				"client_translation"
+			],
+			[
+				"nu",
+				"num_var"
+			],
+			[
+				"tarns",
+				"translation"
+			],
+			[
+				"tan",
+				"translation_record"
+			],
+			[
+				"argu",
+				"arguments"
+			],
+			[
+				"replace",
+				"replace_arguments"
+			],
+			[
+				"globa",
+				"global_argument_name"
+			],
+			[
+				"glob",
+				"global_translation_tags"
+			],
+			[
+				"cons",
+				"construct_key"
+			],
+			[
+				"arg",
+				"arguments"
+			],
+			[
+				"und",
+				"undefined"
+			],
+			[
+				"u",
+				"undefined"
+			],
+			[
+				"global",
+				"global_translation_tag"
+			],
+			[
+				"dump",
+				"dump_key"
+			],
+			[
+				"js_tr",
+				"js_translation_data"
+			],
+			[
+				"plu",
+				"pluralizable_tags"
+			],
+			[
+				"data",
+				"Data::Dumper::Dumper"
+			],
+			[
+				"cdf",
+				"cdf_group"
+			],
+			[
+				"plur",
+				"pluralizable_tags"
+			],
+			[
+				"tras",
+				"translation"
+			],
+			[
+				"prim",
+				"primary_translation"
+			],
+			[
+				"req",
+				"requested_id"
+			],
+			[
+				"mark",
+				"mark_main_photo"
+			],
+			[
+				"main_p",
+				"main_property_photo_id"
+			],
+			[
+				"_fe",
+				"_fetch_main_photo_id"
+			],
+			[
+				"depend",
+				"dependency"
+			],
+			[
+				"depens",
+				"depends_on"
+			],
+			[
+				"ens",
+				"ensuite_bathroom_fields"
+			],
+			[
+				"allow",
+				"allow_empty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Utils.pm",
+			"settings":
+			{
+				"buffer_size": 1487,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "package SourceFile;\n\nuse base qw(FileDescriptor);\n\nuse Image::ExifTool qw(:Public);\nuse DateTime;\nuse Digest::MD5;\n\nuse constant EXIF_FIELDS => qw(DateTimeOriginal DateTimeDigitized DateTime FileModifyDate);\n\nmy $exifTool = Image::ExifTool->new;\n$exifTool->Options(DateFormat => '%Y,%m,%d,%H,%M,%S,%z');\n\nsub new {\n    my ($class, $path, $source) = @_;\n    my $self = $class->SUPER::new($path);\n    $self->{source} = $source;\n    return $self;\n}\n\nsub target_path {\n    my ( $self) = @_;\n    return $self->{target_path} //=\n        $self->_get_full_path(\n            $self->_get_datetime_relative_path($self->{path}),\n            __get_extension($self->{path})\n        );\n}\n\nsub target_path_with_digest {\n    my ( $self ) = @_;\n    return __get_file_digest($self->{path});\n}\n\nsub _get_full_path {\n    my $self = shift;\n    return join '', $self->{source}{target_directory}, @_;\n}\n\nsub _get_datetime_relative_path {\n    my ( $self ) = @_;\n    my $canonical_datetime = $self->_get_canonical_datetime();\n    die $self->{path} . \" have not date info\" unless $canonical_datetime;\n\n    return  $canonical_datetime->strftime('%Y/%m.%B/%Y%m%d%H%M%S');\n}\n\nsub _get_canonical_datetime {\n    my ( $self ) = @_;\n\n    my $info = $exifTool->ImageInfo($self->{file_path}, EXIF_FIELDS);\n\n    my $canonical_datetime;\n    for my $field_name (EXIF_FIELDS) {\n        $canonical_datetime = __parse_exif_date($info->{$field_name});\n        return $canonical_datetime if $canonical_datetime;\n    }\n}\n\nsub __get_file_digest {\n    my ( $file_path ) = @_;\n\n    my $md5 = Digest::MD5->new;\n    open (my $file_handle, '<', $file_path);\n    binmode($file_handle);\n    $md5->addfile($file_handle);\n    return $md5->hexdigest;\n}\n\nsub __get_extension {\n    my ( $file_path ) = @_;\n    my ($extension) = $file_path =~ /(\\.[^.]+)$/;\n    return lc($extension) // '';\n}\n\nsub __parse_exif_date {\n    my ( $date_string ) = @_;\n    return unless $date_string;\n    my ($year, $month, $day, $hour, $minute, $second, $timezone) =\n        split /,/, $date_string;\n    return undef unless $year and $month and $day and $hour;\n    return DateTime->new(\n        year       => $year,\n        month      => $month,\n        day        => $day,\n        hour       => $hour,\n        minute     => $minute,\n        second     => $second,\n        time_zone  => $timezone\n    );\n}\n\n1;",
+			"file": "SourceFile.pm",
+			"file_size": 2325,
+			"file_write_time": 130404684350000000,
+			"settings":
+			{
+				"buffer_size": 2329,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "MoveManager.pm",
+			"settings":
+			{
+				"buffer_size": 7614,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "organize_photos.pl",
+			"settings":
+			{
+				"buffer_size": 1834,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Compile Perl (off).sublime-build",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"moev",
+				"File: Move"
+			],
+			[
+				"perl",
+				"Set Syntax: ModernPerl"
+			],
+			[
+				"mo",
+				"File: Move"
+			],
+			[
+				"bla",
+				"Git: Blame"
+			],
+			[
+				"bl",
+				"Git: Blame"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"copy",
+				"File: Copy Path"
+			],
+			[
+				"path",
+				"File: Copy Path"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"show",
+				"Git: Show Current File"
+			],
+			[
+				"dif",
+				"Git: Diff Current File"
+			],
+			[
+				"disable l",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"lint ",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"copyp",
+				"File: Copy Path"
+			],
+			[
+				"snippet",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"b",
+				"Git: Blame"
+			],
+			[
+				"git dif",
+				"Git: Diff All"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"maso",
+				"Set Syntax: Mason"
+			],
+			[
+				"log",
+				"Git: Log Current File"
+			],
+			[
+				"git",
+				"Git: Blame"
+			],
+			[
+				"blam",
+				"Git: Blame"
+			],
+			[
+				"togg",
+				"Toggle Comment"
+			],
+			[
+				"sni",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git: diff",
+				"Git: Diff Current File"
+			],
+			[
+				"snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"git ",
+				"Git: Toggle Annotations"
+			],
+			[
+				"up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"PackageResourceViewer",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"blae",
+				"Git: Blame"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"cop",
+				"File: Copy Path"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"cp",
+				"File: Copy Path"
+			],
+			[
+				"",
+				"Build: Build"
+			],
+			[
+				"codeSearch",
+				"Code Search Index"
+			],
+			[
+				"copy ",
+				"File: Copy Path"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"index",
+				"Code Search Index"
+			],
+			[
+				"code s",
+				"Code Search"
+			],
+			[
+				"reveal",
+				"File: Reveal"
+			],
+			[
+				"copy p",
+				"File: Copy Path"
+			],
+			[
+				"rev",
+				"File: Reveal"
+			],
+			[
+				"filename",
+				"File: Copy Name"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				":q",
+				"Set Syntax: SQL"
+			],
+			[
+				"select color",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"color sc",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"pa",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 445.0,
+		"history":
+		[
+			"Room",
+			"clear",
+			"cls",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/artikhomirov/Dev/PhotoManager/SourceFile.pm",
+		"/Users/artikhomirov/Dev/PhotoManager/FileDescriptor.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/Validator.pm",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/contacts/contactperson.html",
+		"/usr/local/git_tree/main/apps/admin/utils/view_adminlog.html",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/SelfBuild/Sync.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/SelfBuild/StatusUtils.pm",
+		"/usr/local/git_tree/main/apps/adminscripts/sap/sap_update_bankdata.pl",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/build/settings.html",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/static/js/build/settings.js",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/Utils/RequestParser.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/Utils/Misc.pm",
+		"/usr/local/git_tree/affiliate_data/affiliates/bookings2/static/js/profile/experiment_loc_adjust_layout_for_i18n_strings.js",
+		"/usr/local/git_tree/main/lib/Bookings/Inventory/SettingsSet.pm",
+		"/usr/local/git_tree/affiliate_data/affiliates/bookings2/html_templates/general/profile/inc/settings_group_search.inc",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/build/json/setroomphotos.json",
+		"/usr/local/git_tree/main/bin/show_errors",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/SelfBuild/Role/Location.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/Utils/Location.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Db/Acquisition/PropertyLocation.pm",
+		"/usr/local/git_tree/main/lib/Bookings/HotelBadges/Location.pm",
+		"/usr/local/git_tree/affiliate_data/affiliates/bookings2/html_templates/general/newsletters/city_special_mob_v2/local_office_cuca.inc",
+		"/usr/local/git_tree/main/apps/admin/affiliateadmin/leftnav_overv.comp",
+		"/usr/local/git_tree/main/bin/loginxmltop",
+		"/usr/local/git_tree/main/apps/hadoop/serialize_transactionexperiment.pl",
+		"/usr/local/git_tree/main/apps/admin/content/uct_comp/submit_to_editor.comp",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/SelfBuild/FormRules.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/SelfManage/Role/Inventory.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Db/DefaultInventory.pm",
+		"/usr/local/git_tree/affiliate_data/affiliates/bookings2/static/css/hotel/experiment_hp_inverted_colors.css",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/static/js/manage/invoice.js",
+		"/usr/local/git_tree/main/apps/admin/internal_notice.comp",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/SelfBuild/Role/BankDetail.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Moo/Role.pm",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/comp/roomfacilities_list.comp",
+		"/usr/local/git_tree/main/bin/restart-on-inotifyd",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/build/json/replacephoto.json",
+		"/usr/local/git_tree/main/apps/admin/goals-stats/vendor/bootstrap/less/tests/forms-responsive.html",
+		"/usr/local/git_tree/main/apps/comp/common/formatgrootgetal.comp",
+		"/usr/local/git_tree/main/apps/admin/development/fk_ok.comp",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/Role/Room.pm",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/manage/json/createroom.json",
+		"/usr/local/git_tree/main/lib/Bookings/Mason/Ultranet/Base.pm",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/build/json/createroom.json",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/SelfBuild/Role/Room.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/SelfManage/Role/Room.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Db/Room.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Search/Cache/Room.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/Utils/Room.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Search/Room.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Search/Why/Hotel/Room.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Search/Why/Hotel/FlexibleResults/Room.pm",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/manage/roomdetails.html",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/SelfBuild/Role/RoomFacility.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/SelfManage/Role/RoomFacility.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Search/Engine/Test/Role/GetFromOutputDirectory.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Search/Why/Hotel/BeeRoom.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Search/Why/Hotel/Object/Room.pm",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/build/createroom.html",
+		"/usr/local/git_tree/main/apps/ppc/cron_repopulate",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/static/js/shared/createroom.js",
+		"/usr/local/git_tree/main/lib/Bookings/Db/Room/Admin.pm",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/comp/room_summary.comp",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/Utils/JSON.pm",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/manage/json/deleteroom.json",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/comp/room_form.comp",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/inventory/room.matrix.html",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/comp/room_area.comp",
+		"/usr/local/git_tree/main/apps/bookings2/scripts/userprofile/remove_old_messages.pl",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/Inventory/RoomModel.pm",
+		"/usr/local/git_tree/affiliate_data/affiliates/bookings2/html_templates/general/inc/roomAvailability_roomDetails_info.inc",
+		"/usr/local/git_tree/affiliate_data/affiliates/touch2/html_templates/general/inc/roomAvailability_roomDetails.inc",
+		"/usr/local/git_tree/affiliate_data/affiliates/bookings2/html_templates/general/inc/roomAvailability_roomDetails.inc",
+		"/usr/local/git_tree/affiliate_data/affiliates/affiliate_base/html_templates/general/inc/roomAvailability_roomDetails.inc",
+		"/usr/local/git_tree/main/lib/Bookings/Object/RoomDescription.pm",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/comp/room_totals.comp",
+		"/usr/local/git_tree/main/apps/adminscripts/room-rate-change-email.pl",
+		"/usr/local/git_tree/main/lib/Bookings/Db/RoomOccupancyRoom.pm",
+		"/usr/local/git_tree/main/apps/visitor_profiling/sql/RoomPopularity.sql",
+		"/usr/local/git_tree/main/lib/Bookings/Db/RoomPhoto.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/SelfBuild/Role/Mail.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/SelfBuild/Role/Policy.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/SelfBuild/Role/Photo.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Tools/Action/Translation.pm",
+		"/usr/local/git_tree/main/lib/Bookings/HTMLTemplate.pm",
+		"/usr/local/git_tree/main/config/bookings/action/main.conf",
+		"/usr/local/git_tree/main/bin/actiontop",
+		"/usr/local/git_tree/main/apps/admin/ppc/translate/add_creative_trans.html",
+		"/usr/local/git_tree/main/apps/adminscripts/archive-csmail.pl",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/build/json/agreement.json",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/static/js/modules/translate.js",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/build/json/deleteroom.json",
+		"/usr/local/git_tree/main/config/xml/schemas/OTA/FS_OTA_PingRQ.xsd",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/build/facilities.html",
+		"/usr/local/git_tree/main/apps/adminscripts/cleanup_review_table.pl",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/build/json/checkifphotosenabled.json",
+		"/usr/local/git_tree/main/lib/Bookings/Tools/Translation.pm",
+		"/usr/local/git_tree/main/apps/adminscripts/tickets_reminders.pl",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/general/comp/policy_rateroom.comp",
+		"/usr/local/git_tree/main/config/plack/www-root/secure-admin/apache/bo/admin/bookadmin/change-room.comp",
+		"/usr/local/git_tree/main/config/plack/www-root/joinapp/apache/bo/admin/bookadmin/change-room.comp",
+		"/usr/local/git_tree/main/config/plack/www-root/extranet/apache/bo/extern/hotelreg/edit-room.comp",
+		"/usr/local/git_tree/main/config/plack/www-root/extranet/apache/bo/admin/bookadmin/change-room.comp",
+		"/usr/local/git_tree/main/config/plack/www-root/bookadmin/apache/bo/admin/bookadmin/change-room.comp",
+		"/usr/local/git_tree/main/config/plack/www-root/extranet/apache/hotelreg/edit-room.comp",
+		"/usr/local/git_tree/main/apps/extranet/hotelreg/edit-room.comp",
+		"/usr/local/git_tree/main/apps/admin/bookadmin/change-room.comp",
+		"/usr/local/git_tree/main/apps/hotelreg/edit-room.comp",
+		"/usr/local/git_tree/main/apps/bookings2/scripts/avcache/action_for_transaction.pl",
+		"/usr/local/git_tree/main/apps/admin/translations/city_priority_translator.html",
+		"/usr/local/git_tree/main/lib/Bookings/Object/Translation.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Db/Translation.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Db/TranslationException.pm",
+		"/usr/local/git_tree/main/apps/admin/ppc/translate/translate.comp",
+		"/usr/local/git_tree/main/lib/Bookings/Text/AutomaticTranslate.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/Role/Photo.pm",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/build/photo_upload_listing.html",
+		"/usr/local/git_tree/main/apps/admin/comp/photos_head.comp",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/SelfBuild/Property.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/SelfBuild/Role/Progress.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/Contacts.pm",
+		"/usr/local/git_tree/main/apps/adminscripts/create_creditslips.pl",
+		"/usr/local/git_tree/main/lib/Bookings/Db/db_et_lu.pm",
+		"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/static/js/modules/dev_env.js",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/SelfManage/Dashboard.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Db/HotelContract.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Tools/ME/Send.pm",
+		"/usr/local/git_tree/main/lib/Bookings/Extranet/AgreementGenerator.pm"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/usr/local/git_tree/main/apps",
+			"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/build/json/settings.json",
+			"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng/build",
+			"",
+			"/usr/local/git_tree/main/apps/admin/hoteladmin",
+			"/usr/local/git_tree/main/apps/admin/hoteladmin/extranet_ng",
+			"/usr/local/git_tree/main/lib/Bookings/Extranet",
+			"",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"_get_datetime_relative_path",
+			"source_file_path",
+			"get_full_path",
+			"Dumper",
+			"Data::Dumper",
+			"errors",
+			"@errors",
+			"errors",
+			"add_service_elm",
+			"add_se",
+			"is_services",
+			"is_valid",
+			"check_ensuite_bathrooms",
+			"_rule_function",
+			"errors",
+			"num_rooms",
+			"room_fields",
+			"$ARGS",
+			"$args",
+			"$ARGS",
+			"$args",
+			"args",
+			"\\b{num}\\b",
+			"update_or_create_room",
+			"room_summary",
+			"room_id",
+			"rooms_warning",
+			"_room_data",
+			"clone_structure_like_storable_dclone",
+			"Bookings::Db::Room",
+			"delete_room",
+			"data",
+			"_get_room_page_info",
+			"update_or_create_room",
+			"data",
+			"sucess",
+			"update_roo",
+			"room",
+			"update_room",
+			"room_id",
+			"_room_data",
+			"num_rooms_total",
+			"$cdf, $group, \"language_exception_${id}_*0$l$concat_tag\"",
+			"data",
+			"\\bnum\\b",
+			"num_bathrooms",
+			"discount_price",
+			"config.",
+			"config",
+			"currency",
+			"\\bnum\\b",
+			"js_data",
+			"room_discount_x_persons_room_type",
+			"currency",
+			"room_discount_x_persons_total_price",
+			"pricing_x_persons_price_label",
+			"[price_here]",
+			"\\bnum\\b",
+			"num",
+			"encode_json",
+			"comp/progress.comp",
+			"progress_status",
+			"progress",
+			"progress_score",
+			"totals_html",
+			"room_total",
+			"data",
+			"display_room_warning",
+			"rooms_warning",
+			"$data->",
+			"get_room_page_info",
+			"$rooms",
+			"$nr_rooms",
+			"nr_rooms",
+			"avail_rooms",
+			"num_rooms_total",
+			"comp/room_totals.comp",
+			"room_totals",
+			"$data->{num_rooms_total}",
+			"room_totals",
+			"$nr_rooms",
+			"nr_rooms",
+			"self>",
+			"$u->property",
+			"get_number_of_rooms_created",
+			"Photo",
+			"Bookings::Extranet::Role::Photo",
+			"photo",
+			"Photo",
+			"lang",
+			"Bookings::Extranet::AgreementGenerator",
+			"get_va",
+			"gen_valid",
+			"type",
+			"get_highest_version_contract",
+			"config",
+			"get_translations",
+			"num_var",
+			"get_translations",
+			"restrict_length",
+			"Bookings::Db::db_acquisition",
+			"sb_photos_saved",
+			"supplementary",
+			" && response.responseJSON.supplementary",
+			"tearDown",
+			"Bookings::Db::PriceDetail",
+			"PropertyService",
+			"Bookings::Db::Acquisition::PropertyService",
+			"_services",
+			"extra_services_section",
+			"tax_info",
+			"in_excluded_options",
+			"policy_data",
+			"creditcards",
+			"$citytax_amount",
+			"citytax_amount",
+			"is_default_citytax",
+			"is_default_vat",
+			"Bookings::Extranet::PriceUtils",
+			"is_default_vat",
+			"get_tax_info",
+			"get_default_tax_info",
+			"is_special_accommodationtype",
+			"is_eu",
+			"likely_tax",
+			"sign_agreement",
+			"_query_stats_scalar",
+			"lang"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"$m->abort",
+			"$validation_results",
+			"$validation_results\n",
+			"$value\n",
+			"{\n",
+			"super",
+			"$db_agreement",
+			"$property_id",
+			"$db_agreement",
+			"update_settings_fields"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Utils.pm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ModernPerl/ModernPerl.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "SourceFile.pm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ModernPerl/ModernPerl.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "MoveManager.pm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3943,
+								3930
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ModernPerl/ModernPerl.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 1692.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "organize_photos.pl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1834,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1792,
+								1792
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ModernPerl/ModernPerl.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 513.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 211.0
+	},
+	"output.find_results":
+	{
+		"height": 640.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"project": "PhotoManager.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"apps/admin/hoteladmin/contacts/contactperson.html",
+				"main/apps/admin/hoteladmin/contacts/contactperson.html"
+			],
+			[
+				"validat",
+				"Extranet/Validator.pm"
+			],
+			[
+				"validato",
+				"Extranet/Validator.pm"
+			],
+			[
+				"setting.js",
+				"extranet_ng/static/js/build/settings.js"
+			],
+			[
+				"settings.html",
+				"extranet_ng/build/settings.html"
+			],
+			[
+				"location",
+				"Extranet/SelfBuild/Role/Location.pm"
+			],
+			[
+				"location.pm",
+				"Extranet/Utils/Location.pm"
+			],
+			[
+				"settings.json",
+				"extranet_ng/build/json/settings.json"
+			],
+			[
+				"inven",
+				"Extranet/SelfManage/Role/Inventory.pm"
+			],
+			[
+				"role/in",
+				"Extranet/SelfManage/Role/Inventory.pm"
+			],
+			[
+				"formru",
+				"Extranet/SelfBuild/FormRules.pm"
+			],
+			[
+				"room.pm",
+				"main/lib/Bookings/Extranet/SelfBuild/Role/Room.pm"
+			],
+			[
+				"role/room.pm",
+				"main/lib/Bookings/Extranet/Role/Room.pm"
+			],
+			[
+				"createroo",
+				"extranet_ng/build/json/createroom.json"
+			],
+			[
+				"createroom.json",
+				"extranet_ng/manage/json/createroom.json"
+			],
+			[
+				"role/room",
+				"Extranet/Role/Room.pm"
+			],
+			[
+				"room.",
+				"Extranet/SelfManage/Role/Room.pm"
+			],
+			[
+				"room_summ",
+				"extranet_ng/comp/room_summary.comp"
+			],
+			[
+				"roomdet",
+				"extranet_ng/manage/roomdetails.html"
+			],
+			[
+				"comp/room_sum",
+				"extranet_ng/comp/room_summary.comp"
+			],
+			[
+				"role/polic",
+				"Extranet/SelfBuild/Role/Policy.pm"
+			],
+			[
+				"createroom.js",
+				"extranet_ng/build/json/createroom.json"
+			],
+			[
+				"createrooms",
+				"extranet_ng/static/js/shared/createroom.js"
+			],
+			[
+				"htmltemplate.pm",
+				"main/lib/Bookings/HTMLTemplate.pm"
+			],
+			[
+				"action/t",
+				"main/lib/Bookings/Tools/Action/Translation.pm"
+			],
+			[
+				"room_totals",
+				"main/apps/admin/hoteladmin/extranet_ng/comp/room_totals.comp"
+			],
+			[
+				"form",
+				"Extranet/SelfBuild/FormRules.pm"
+			],
+			[
+				"create",
+				"extranet_ng/manage/json/createroom.json"
+			],
+			[
+				"translate.js",
+				"extranet_ng/static/js/modules/translate.js"
+			],
+			[
+				"room.comp",
+				"extranet_ng/comp/room_form.comp"
+			],
+			[
+				"comp/room_form.comp",
+				"extranet_ng/comp/room_form.comp"
+			],
+			[
+				"comp/room_summary.comp",
+				"extranet_ng/comp/room_summary.comp"
+			],
+			[
+				"action/transla",
+				"main/lib/Bookings/Tools/Action/Translation.pm"
+			],
+			[
+				"createroom.html",
+				"extranet_ng/build/createroom.html"
+			],
+			[
+				"photo.pm",
+				"Extranet/SelfBuild/Role/Photo.pm"
+			],
+			[
+				"createroom",
+				"extranet_ng/manage/json/createroom.json"
+			],
+			[
+				"action/tr",
+				"main/lib/Bookings/Tools/Action/Translation.pm"
+			],
+			[
+				"creater",
+				"extranet_ng/build/json/createroom.json"
+			],
+			[
+				"delete",
+				"extranet_ng/build/json/deleteroom.json"
+			],
+			[
+				"property",
+				"main/lib/Bookings/Db/Acquisition/Property.pm"
+			],
+			[
+				"property.pm",
+				"Extranet/SelfBuild/Property.pm"
+			],
+			[
+				"agreement.js",
+				"extranet_ng/build/json/agreement.json"
+			],
+			[
+				"lib/bookings/db/shorthotelregistration.pm",
+				"main/lib/Bookings/Db/ShortHotelRegistration.pm"
+			],
+			[
+				"apps/admin/hotelreg2/accommodation_agreement.html",
+				"main/apps/admin/hotelreg2/accommodation_agreement.html"
+			],
+			[
+				"agrgenerator",
+				"Extranet/AgreementGenerator.pm"
+			],
+			[
+				"mail",
+				"Extranet/SelfBuild/Role/Mail.pm"
+			],
+			[
+				"proppho",
+				"main/lib/Bookings/Db/Acquisition/PropertyPhoto.pm"
+			],
+			[
+				"translat",
+				"main/lib/Bookings/Tools/Translation.pm"
+			],
+			[
+				"propertyaf",
+				"main/lib/Bookings/Db/Acquisition/PropertyAffiliate.pm"
+			],
+			[
+				"scalar.",
+				"main/lib/Bookings/Tools/Scalar.pm"
+			],
+			[
+				"propertyphoto",
+				"main/lib/Bookings/Db/Acquisition/PropertyPhoto.pm"
+			],
+			[
+				"apps/admin/hoteladmin/extranet_ng/build/json/index.json",
+				"main/apps/admin/hoteladmin/extranet_ng/build/json/index.json"
+			],
+			[
+				"photo_",
+				"extranet_ng/build/photo_upload_listing.html"
+			],
+			[
+				"photo_mana",
+				"main/apps/admin/hoteladmin/extranet_ng/static/js/modules/photo_manage.js"
+			],
+			[
+				"photo_upload.js",
+				"extranet_ng/static/js/modules/photo_upload.js"
+			],
+			[
+				"replacephot",
+				"main/apps/admin/hoteladmin/extranet_ng/build/json/replacephoto.json"
+			],
+			[
+				"replace",
+				"extranet_ng/manage/json/replacephoto.json"
+			],
+			[
+				"upload",
+				"extranet_ng/build/json/uploadphotos.json"
+			],
+			[
+				"modules/photo_upload.js",
+				"extranet_ng/static/js/modules/photo_upload.js"
+			],
+			[
+				"properytb",
+				"main/lib/Bookings/Db/Acquisition/PropertyBankDetail.pm"
+			],
+			[
+				"s",
+				"Extranet/SelfBuild/Sync.pm"
+			],
+			[
+				"service.pm",
+				"Extranet/SelfManage/Role/Service.pm"
+			],
+			[
+				"",
+				"Extranet/Contacts.pm"
+			],
+			[
+				"payment.html",
+				"extranet_ng/manage/payment.html"
+			],
+			[
+				"comp/show_cc_list.comp",
+				"extranet_ng/comp/show_cc_list.comp"
+			],
+			[
+				"self_build_o",
+				"main/apps/admin/hoteladmin/search/search-files/comps/search_outputs/self_build_output.comp"
+			],
+			[
+				"settins.json",
+				"extranet_ng/build/json/settings.json"
+			],
+			[
+				"agree",
+				"extranet_ng/build/json/agreement.json"
+			],
+			[
+				"agreement.",
+				"extranet_ng/build/agreement.html"
+			],
+			[
+				"sb_sm",
+				"main/lib/Bookings/Apache/Action/Sb_sm_email.pm"
+			],
+			[
+				"apps/admin/hoteladmin/sitemap.comp",
+				"main/apps/admin/hoteladmin/sitemap.comp"
+			],
+			[
+				"apps/admin/bookadmin/leftnav.comp",
+				"main/apps/admin/bookadmin/leftnav-actionlist.comp"
+			],
+			[
+				"nav",
+				"main/apps/admin/nav.comp"
+			],
+			[
+				"sb_s",
+				"main/lib/Bookings/Apache/Action/Sb_sm_email.pm"
+			],
+			[
+				"property.m",
+				"Extranet/SelfBuild/Property.pm"
+			],
+			[
+				"sync",
+				"Extranet/SelfBuild/Sync.pm"
+			],
+			[
+				"mandaterequest",
+				"main/lib/Bookings/Db/DebtorDirectDebitMandateRequest.pm"
+			],
+			[
+				"accoun",
+				"extranet_ng/manage/account_bank.html"
+			],
+			[
+				"photos.htm",
+				"extranet_ng/build/photos.html"
+			],
+			[
+				"translate",
+				"extranet_ng/static/js/modules/translate.js"
+			],
+			[
+				"photo_up",
+				"extranet_ng/build/photo_upload_listing.html"
+			],
+			[
+				"sync.pm",
+				"Extranet/SelfBuild/Sync.pm"
+			],
+			[
+				"directdebit_mandate.html",
+				"main/apps/admin/hoteladmin/finance/directdebit_mandate.html"
+			],
+			[
+				"propert",
+				"Extranet/SelfBuild/Property.pm"
+			],
+			[
+				"sync.p",
+				"Extranet/SelfBuild/Sync.pm"
+			],
+			[
+				"account_b",
+				"extranet_ng/manage/account_bank.html"
+			],
+			[
+				"photos.h",
+				"extranet_ng/build/photos.html"
+			],
+			[
+				"role/ban",
+				"Extranet/SelfBuild/Role/BankDetail.pm"
+			],
+			[
+				"account_ban",
+				"extranet_ng/manage/account_bank.html"
+			],
+			[
+				"manage/sitemap.comp",
+				"extranet_ng/manage/sitemap.comp"
+			],
+			[
+				"photo_deta",
+				"extranet_ng/manage/photo_upload_detailed.html"
+			],
+			[
+				"photo_man",
+				"main/apps/admin/hoteladmin/extranet_ng/static/js/modules/photo_manage.js"
+			],
+			[
+				"repl",
+				"extranet_ng/build/json/replacephoto.json"
+			],
+			[
+				"setroomp",
+				"extranet_ng/build/json/setroomphotos.json"
+			],
+			[
+				"manage/property",
+				"main/lib/Bookings/Extranet/SelfManage/Property.pm"
+			],
+			[
+				"shared/role/p",
+				"main/lib/Bookings/Extranet/SelfShared/Role/Photo.pm"
+			],
+			[
+				"photomana",
+				"extranet_ng/static/js/modules/photo_manage.js"
+			],
+			[
+				"remove",
+				"extranet_ng/build/json/removephoto.json"
+			],
+			[
+				"checkif",
+				"extranet_ng/build/json/checkifphotosenabled.json"
+			],
+			[
+				"yyy",
+				"main/lib/Bookings/Tools/YYYYMMDD.pm"
+			],
+			[
+				"manage/prope",
+				"Extranet/SelfManage/Property.pm"
+			],
+			[
+				"db/phot",
+				"main/lib/Bookings/Db/Photo.pm"
+			],
+			[
+				"db/roomphoto",
+				"main/lib/Bookings/Db/RoomPhoto.pm"
+			],
+			[
+				"role/phot",
+				"Extranet/SelfBuild/Role/Photo.pm"
+			],
+			[
+				"shared/roo",
+				"Extranet/SelfShared/Role/Photo.pm"
+			],
+			[
+				"manage/role/photo",
+				"Extranet/SelfManage/Role/Photo.pm"
+			],
+			[
+				"photoutils",
+				"main/lib/Bookings/Extranet/PhotoUtils.pm"
+			],
+			[
+				"base.pm",
+				"main/lib/Bookings/Mason/Ultranet/Base.pm"
+			],
+			[
+				"property.mp",
+				"Extranet/SelfBuild/Property.pm"
+			],
+			[
+				"prope",
+				"Extranet/SelfBuild/Property.pm"
+			],
+			[
+				"photouti",
+				"Extranet/PhotoUtils.pm"
+			],
+			[
+				"photop.m",
+				"Extranet/SelfManage/Role/Photo.pm"
+			],
+			[
+				"photo_manag",
+				"extranet_ng/static/js/modules/photo_manage.js"
+			],
+			[
+				"phots.html",
+				"extranet_ng/build/photos.html"
+			],
+			[
+				"comp/languages-spoken.comp",
+				"extranet_ng/comp/languages-spoken.comp"
+			],
+			[
+				"facilities.html",
+				"extranet_ng/build/facilities.html"
+			],
+			[
+				"langage",
+				"main/lib/Bookings/Locale/Language.pm"
+			],
+			[
+				"language.pm",
+				"main/lib/Bookings/Tools/Action/Language.pm"
+			],
+			[
+				"apps/adminscripts/controlrooms/compare_bfs_tables.pl",
+				"main/apps/adminscripts/controlrooms/compare_bfs_tables.pl"
+			],
+			[
+				"roomfacjso",
+				"extranet_ng/build/json/roomfacilities.json"
+			],
+			[
+				"num",
+				"Extranet/NumberUtils.pm"
+			],
+			[
+				"payme",
+				"extranet_ng/static/js/manage/payment.js"
+			],
+			[
+				"invo",
+				"extranet_ng/static/js/manage/invoice.js"
+			],
+			[
+				"manage/invoices.html",
+				"extranet_ng/manage/invoices.html"
+			],
+			[
+				"contact.js",
+				"extranet_ng/static/js/manage/contact.js"
+			],
+			[
+				"contact.html",
+				"extranet_ng/manage/contact.html"
+			],
+			[
+				"payment.js",
+				"extranet_ng/static/js/manage/payment.js"
+			],
+			[
+				"payment",
+				"extranet_ng/manage/payment.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 147.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 319.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
