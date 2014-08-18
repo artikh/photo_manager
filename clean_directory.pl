@@ -11,7 +11,7 @@ my $dir_to_clean = $ARGV[0];
 die "No parameter" unless $dir_to_clean;
 die "Dir $dir_to_clean does not exists" unless -d $dir_to_clean;
 
-Utils->clean_directory($dir_to_clean, qr/\.DS_store/i);
+Utils->clean_directory($dir_to_clean, qr/Thumbs\.db$/i, qr/\.DS_store$/i, qr/desktop.ini$/i, qr/Folder( \([^)]+\))?\.jpg$/i, qr/AlbumArt(.*)?\.jpg$/i);
 
 __END__
 mkdir test

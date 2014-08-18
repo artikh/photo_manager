@@ -40,7 +40,7 @@ sub clean_directory {
 sub __only_ignored_files {
     my ( $file_paths, $ignore_patterns ) = @_;
 
-    FILE: for my $existing_file_path (grep { -e $_ } @$file_paths) {
+    FILE: for my $existing_file_path (grep { -e $_ and -s $_ } @$file_paths) {
         return 0 if -d $existing_file_path;
         for my $pattern (@$ignore_patterns) {
             next FILE if $existing_file_path =~ m/$pattern/;
