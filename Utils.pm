@@ -5,6 +5,7 @@ use strict;
 use warnings;
 use autodie;
 
+use Carp qw(cluck);
 use File::Path qw/remove_tree/;
 use File::Find qw/finddepth/;
 use File::Basename qw/dirname/;
@@ -13,6 +14,11 @@ sub clean_directory {
     my ( $class, $directory_path, @ignore_patterns ) = @_;
 
     my $directory_contains = { };
+
+    if (not -e $directory_path) {
+        cluck "No '$directory_path' found. Nothing to clean";
+        return;
+    }
 
     finddepth( {
         wanted => sub {

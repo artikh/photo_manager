@@ -103,6 +103,7 @@ sub execute {
     my $source_to_target = $self->{source_to_target};
     for my $source_file_path (keys $source_to_target) {
         my $target_file_path = $source_to_target->{$source_file_path};
+        next if $target_file_path eq $source_file_path;
 
         say "Moving $source_file_path => $target_file_path";
         move($source_file_path, $target_file_path) or die "Unable to move: $!";

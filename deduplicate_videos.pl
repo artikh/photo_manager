@@ -24,11 +24,15 @@ for my $digest (keys $digest_to_paths) {
     next if @file_paths <= 1;
 
     my $file_to_leave_path = shift @file_paths;
+    die "$file_to_leave_path not found" if not -f $file_to_leave_path;
+
     print "Leaving $file_to_leave_path\n";
-    print "Deleting:\n" . (join "\n", @file_paths) . "\n\n";
     for (@file_paths) {
         if (-f $_) {
-            `rm -f "$_"`;
+            print "Deleting:\n$_\n\n";
+            `trash "$_"`;
+        } else {            
+            print "$_\nis already removed\n\n";
         }
     }
 }

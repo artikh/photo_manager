@@ -25,7 +25,7 @@ for my $digest (keys $digest_to_paths) {
         delete $digest_to_paths->{$digest};
     } else {
         my ($path_to_keep, @paths_to_delete) =
-            sort { length($a) <=> length($b) }
+            sort { $a cmp $b }
             keys $digest_to_paths->{$digest};
         die "No '$path_to_keep' found" unless (-f $path_to_keep);
 

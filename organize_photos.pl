@@ -4,6 +4,7 @@ use 5.016;
 use strict;
 use warnings;
 use autodie;
+use utf8;
 
 use PhotoMoveManager;
 use Utils;
@@ -14,8 +15,20 @@ use File::Copy;
 use Term::ANSIColor;
 use List::Util qw(max);
 
-my $target_directory = $ARGV[0] // '/Volumes/Media/Photos';
-my $trash_directory = $ARGV[1] // $target_directory . '.trash';
+use Getopt::Long;
+
+my $target_directory;
+my $trash_directory = '';
+my $trash = 0;
+GetOptions(
+    'target=s' => \$target_directory,
+    'trash_dir=s'  => \$trash_directory,
+    'trash'  => \$trash,
+);
+
+$trash_directory ||= $target_directory . '.trash';
+
+say "Trash directory is '$trash_directory'";
 
 my $move_manager = PhotoMoveManager->new($target_directory, $trash_directory);
 my $files_to_handle = {};
@@ -66,3 +79,5 @@ print "\n";
 $move_manager->execute();
 
 Utils->clean_directory($_, qr/\.DS_store/i) for ($target_directory, $trash_directory);
+
+`trash '$trash_directory'` if $trash;
